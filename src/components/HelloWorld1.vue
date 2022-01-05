@@ -2,9 +2,9 @@
  * @Author: sunrf
  * @Date: 2021-12-31 15:32:41
  * @LastEditors: sunrf
- * @LastEditTime: 2022-01-05 17:10:13
+ * @LastEditTime: 2022-01-05 17:57:53
  * @Descripttion:
- * @FilePath: /study/vue-eslint-demo/src/components/HelloWorld.vue
+ * @FilePath: /study/vue-eslint-demo/src/components/HelloWorld1.vue
 -->
 <template>
   <div
@@ -22,7 +22,7 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "HelloWorld1",
   props: {
     msg: {
       type: String,
@@ -44,7 +44,7 @@ export default {
       b: "2"
     };
 
-    console.log(a, c, d);
+    console.log(a, c, d, c, f);
   },
   methods: {}
 };
